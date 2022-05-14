@@ -1,0 +1,30 @@
+%%gremlin
+g.V().hasId('Luke').as('origen').V().hasId('Fifa18').addE('likes').from('origen').property('weight', 0.1).next()
+g.V().hasId('Luke').as('origen').V().hasId('HorizonZeroDawn').addE('likes').from('origen').property('weight', 0.1).next()
+g.V().hasId('Luke').as('origen').V().hasId('GranTurismoSport').addE('likes').from('origen').property('weight', 0.4).next()
+g.V().hasId('Luke').as('origen').V().hasId('Ratchet&Clank').addE('likes').from('origen').property('weight', 0.9).next()
+g.V().hasId('Luke').as('origen').V().hasId('GravityRush').addE('likes').from('origen').property('weight', 0.3).next()
+
+g.V().hasId('Mike').as('origen').V().hasId('Nioh').addE('likes').from('origen').property('weight', 0.7).next()
+g.V().hasId('Mike').as('origen').V().hasId('TombRaider').addE('likes').from('origen').property('weight', 0.9).next()
+g.V().hasId('Mike').as('origen').V().hasId('CallOfDutyBO4').addE('likes').from('origen').property('weight', 0.9).next()
+g.V().hasId('Mike').as('origen').V().hasId('GranTurismoSport').addE('likes').from('origen').property('weight', 0.9).next()
+g.V().hasId('Mike').as('origen').V().hasId('HorizonZeroDawn').addE('likes').from('origen').property('weight', 0.6).next()
+
+g.V().hasId('Lina').as('origen').V().hasId('Ratchet&Clank').addE('likes').from('origen').property('weight', 0.7).next()
+g.V().hasId('Lina').as('origen').V().hasId('GravityRush').addE('likes').from('origen').property('weight', 0.1).next()
+g.V().hasId('Lina').as('origen').V().hasId('Knack').addE('likes').from('origen').property('weight', 0.2).next()
+g.V().hasId('Lina').as('origen').V().hasId('TombRaider').addE('likes').from('origen').property('weight', 0.3).next()
+
+g.V().hasId('Emma').as('origen').V().hasId('Knack').addE('likes').from('origen').property('weight', 0.5).next()
+g.V().hasId('Emma').as('origen').V().hasId('Ratchet&Clank').addE('likes').from('origen').property('weight', 0.6).next()
+
+g.V().hasId('Mike').as('origen').V().hasId('ARMS').addE('likes').from('origen').property('weight', 0.3).next()
+g.V().hasId('Luke').as('origen').V().hasId('ARMS').addE('likes').from('origen').property('weight', 0.5).next()
+g.V().hasId('Luke').as('origen').V().hasId('MarioKart8').addE('likes').from('origen').property('weight', 0.4).next()
+g.V().hasId('Mike').as('origen').V().hasId('MarioKart8').addE('likes').from('origen').property('weight', 0.7).next()
+
+g.V().hasId('Lina').as('origen').V().hasId('MarioKart8').addE('likes').from('origen').property('weight', 0.8).next()
+g.V().hasId('Lina').as('origen').V().hasId('SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.4).next()
+g.V().hasId('Luke').as('origen').V().hasId('SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.7).next()
+g.V().hasId('Mike').as('origen').V().hasId('SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.8).next()
