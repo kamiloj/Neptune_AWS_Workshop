@@ -59,6 +59,13 @@ g.E()
 g.E().count()
 ```
 
+Que es un out, que es un in?
+```
+g.V().hasId('Luke').out()
+g.V().hasId('Fifa18').in()
+g.V().hasId('Luke').out().in()
+```
+
 Borrare todo de mi base de datos
 ```
 g.V().drop().iterate()
