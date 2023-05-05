@@ -1,3 +1,4 @@
+%%gremlin
 g.addV('person').property(id, 'Luke').property('GamerAlias', 'skywalker123').next()
 g.addV('person').property(id, 'Emma').property('GamerAlias', 'smiles007').next()
 g.addV('person').property(id, 'Lina').property('GamerAlias', 'bringit32').next()
