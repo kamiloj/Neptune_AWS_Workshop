@@ -1,6 +1,6 @@
 ## Entendiendo por grupos
 
-Vamos a cambiar las peras por manzanas para estar seguro que todo esta claro
+Vamos a cambiar las peras por manzanas, y complejizar las queries para estar seguro que todo esta claro
 
 Vayan al [Link](https://tinkerpop.apache.org/gremlin.html) donde aprenderemos de Gremlin como lenguaje declarativo para consulta de bases de datos orientadas a grafos.
 
