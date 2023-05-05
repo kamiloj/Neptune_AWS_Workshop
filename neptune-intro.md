@@ -31,10 +31,35 @@ Todo son nodos y vertices.
          values(property).mean().next();
 ```
 
-Que significa cada cosa
+## Veamos unos ejemplos de bases de datos.
+
+![Image](image1.jpg)
 
 Vamos a cargar la data de vertices y aristas.
 
 - Creen un notebook de python3 
 - Adicionen los [Vertices](Vertices.gremlin)
 - Adicionen las [Aristas](Aristas.gremlin)
+
+## Comandos
+
+Label Person vs Game
+```
+g.addV('person').property(id, 'Luke').property('GamerAlias', 'skywalker123').next()
+g.addV('game').property(id, 'HorizonZeroDawn').property('GameGenre', 'Adventure').next()
+g.V().count()
+```
+
+Que diferencia las 3 primeras
+```
+g.V().hasId('Luke').as('origen').V().hasId('Fifa18').addE('likes').from('origen').property('weight', 0.1).next()
+g.V().hasId('Luke').as('origen').V().hasId('Fifa18').addE('likes').to('origen').property('weight', 0.1).next()
+g.V().hasId('Fifa18').as('origen').V().hasId('Luke').addE('likes').from('origen').property('weight', 0.1).next()
+g.E()
+g.E().count()
+```
+
+Borrare todo de mi base de datos
+```
+g.V().drop().iterate()
+```
