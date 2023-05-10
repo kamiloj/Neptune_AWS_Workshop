@@ -16,3 +16,25 @@ g.addV('game').property(id, 'Knack').property('GameGenre', 'Adventure').next()
 g.addV('game').property(id, 'SuperMarioOdyssey').property('GameGenre', 'Adventure').next()
 g.addV('game').property(id, 'MarioKart8').property('GameGenre', 'Racing').next()
 g.addV('game').property(id, 'ARMS').property('GameGenre', 'Action').next()
+
+
+
+
+Gremlify
+g.addV('person').property('Name', 'Luke').property('GamerAlias', 'skywalker123')
+.addV('person').property('Name', 'Emma').property('GamerAlias', 'smiles007')
+.addV('person').property('Name', 'Lina').property('GamerAlias', 'bringit32')
+.addV('person').property('Name', 'Mike').property('GamerAlias', 'forchinet')
+
+.addV('game').property('Name', 'HorizonZeroDawn').property('GameGenre', 'Adventure')
+.addV('game').property('Name', 'GranTurismoSport').property('GameGenre', 'Racing')
+.addV('game').property('Name', 'Ratchet&Clank').property('GameGenre', 'Adventure')
+.addV('game').property('Name', 'Fifa18').property('GameGenre', 'Sports')
+.addV('game').property('Name', 'GravityRush').property('GameGenre', 'Shooter')
+.addV('game').property('Name', 'Nioh').property('GameGenre', 'Action')
+.addV('game').property('Name', 'TombRaider').property('GameGenre', 'Action')
+.addV('game').property('Name', 'CallOfDutyBO4').property('GameGenre', 'Shooter')
+.addV('game').property('Name', 'Knack').property('GameGenre', 'Adventure')
+.addV('game').property('Name', 'SuperMarioOdyssey').property('GameGenre', 'Adventure')
+.addV('game').property('Name', 'MarioKart8').property('GameGenre', 'Racing')
+.addV('game').property('Name', 'ARMS').property('GameGenre', 'Action')
