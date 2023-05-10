@@ -28,3 +28,35 @@ g.V().hasId('Lina').as('origen').V().hasId('MarioKart8').addE('likes').from('ori
 g.V().hasId('Lina').as('origen').V().hasId('SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.4).next()
 g.V().hasId('Luke').as('origen').V().hasId('SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.7).next()
 g.V().hasId('Mike').as('origen').V().hasId('SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.8).next()
+
+
+Gremlify
+g.V().has('Name','Luke').as('origen').V().has('Name','Fifa18').addE('likes').from('origen').property('weight', 0.1)
+.V().has('Name','Luke').as('origen').V().has('Name','HorizonZeroDawn').addE('likes').from('origen').property('weight', 0.1)
+.V().has('Name','Luke').as('origen').V().has('Name','GranTurismoSport').addE('likes').from('origen').property('weight', 0.4)
+.V().has('Name','Luke').as('origen').V().has('Name','Ratchet&Clank').addE('likes').from('origen').property('weight', 0.9)
+.V().has('Name','Luke').as('origen').V().has('Name','GravityRush').addE('likes').from('origen').property('weight', 0.3)
+
+.V().has('Name','Mike').as('origen').V().has('Name','Nioh').addE('likes').from('origen').property('weight', 0.7)
+.V().has('Name','Mike').as('origen').V().has('Name','TombRaider').addE('likes').from('origen').property('weight', 0.9)
+.V().has('Name','Mike').as('origen').V().has('Name','CallOfDutyBO4').addE('likes').from('origen').property('weight', 0.9)
+.V().has('Name','Mike').as('origen').V().has('Name','GranTurismoSport').addE('likes').from('origen').property('weight', 0.9)
+.V().has('Name','Mike').as('origen').V().has('Name','HorizonZeroDawn').addE('likes').from('origen').property('weight', 0.6)
+
+.V().has('Name','Lina').as('origen').V().has('Name','Ratchet&Clank').addE('likes').from('origen').property('weight', 0.7)
+.V().has('Name','Lina').as('origen').V().has('Name','GravityRush').addE('likes').from('origen').property('weight', 0.1)
+.V().has('Name','Lina').as('origen').V().has('Name','Knack').addE('likes').from('origen').property('weight', 0.2)
+.V().has('Name','Lina').as('origen').V().has('Name','TombRaider').addE('likes').from('origen').property('weight', 0.3)
+
+.V().has('Name','Emma').as('origen').V().has('Name','Knack').addE('likes').from('origen').property('weight', 0.5)
+.V().has('Name','Emma').as('origen').V().has('Name','Ratchet&Clank').addE('likes').from('origen').property('weight', 0.6)
+
+.V().has('Name','Mike').as('origen').V().has('Name','ARMS').addE('likes').from('origen').property('weight', 0.3)
+.V().has('Name','Luke').as('origen').V().has('Name','ARMS').addE('likes').from('origen').property('weight', 0.5)
+.V().has('Name','Luke').as('origen').V().has('Name','MarioKart8').addE('likes').from('origen').property('weight', 0.4)
+.V().has('Name','Mike').as('origen').V().has('Name','MarioKart8').addE('likes').from('origen').property('weight', 0.7)
+
+.V().has('Name','Lina').as('origen').V().has('Name','MarioKart8').addE('likes').from('origen').property('weight', 0.8)
+.V().has('Name','Lina').as('origen').V().has('Name','SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.4)
+.V().has('Name','Luke').as('origen').V().has('Name','SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.7)
+.V().has('Name','Mike').as('origen').V().has('Name','SuperMarioOdyssey').addE('likes').from('origen').property('weight', 0.8)
