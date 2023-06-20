@@ -70,9 +70,11 @@ g.E().count()
 
 Que es un out, que es un in?
 ```
-g.V().hasId('Luke').out()
-g.V().hasId('Fifa18').in()
-g.V().hasId('Luke').out().in()
+g.V().has('Name','Luke').out()
+g.V().has('Name','Luke').out().values("Name")
+
+g.V().has('Name','Fifa18').in()
+g.V().has('Name','Luke').out().in()
 ```
 
 Borrare todo de mi base de datos
