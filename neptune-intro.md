@@ -59,6 +59,15 @@ g.E()
 g.E().count()
 ```
 
+Inicio ADL
+
+```
+g.V()
+g.V().count()
+g.E()
+g.E().count()
+```
+
 Que es un out, que es un in?
 ```
 g.V().hasId('Luke').out()
