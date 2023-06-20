@@ -1,3 +1,12 @@
+
+
+```
+g.V()
+g.V().count()
+g.E()
+g.E().count()
+```
+
 Tenemos mucha info podemos limitarla
 ```
 g.E()
@@ -5,12 +14,26 @@ limitarlo a 4
 g.E().limit(4)
 ```
 
-Podemos hacer busquedas de diferente forma
+
+Podemos hacer busquedas de nodos
 ```
 g.V().has.('GamerAlias','skywalker123')
 g.V().has(label,'person')
 g.V().has('Name','luke')
 ```
+
+
+Que es un out, que es un in?
+```
+g.V().has('Name','Luke').out()
+g.V().has('Name','Luke').out().values("Name")
+
+g.V().has('Name','Fifa18').in()
+g.V().has('Name','Luke').out().in()
+```
+
+
+
 Podemos calcular el grado de entrada
 grado de entrada= cuantas aristas ingresan
 ```
