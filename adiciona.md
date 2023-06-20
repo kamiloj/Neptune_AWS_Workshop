@@ -2,19 +2,19 @@ Tenemos mucha info podemos limitarla
 ```
 g.E()
 limitarlo a 4
-g.E()limit(4)
+g.E().limit(4)
 ```
 
 Podemos hacer busquedas de diferente forma
 ```
 g.V().has.('GamerAlias','skywalker123')
-g.V().has.(label,'person')
-g.V().hasId.('luke')
+g.V().has(label,'person')
+g.V().has('Name','luke')
 ```
 Podemos calcular el grado de entrada
 grado de entrada= cuantas aristas ingresan
 ```
-g.V().hasId.('MarioKart8').inE()
+g.V().has('Name','MarioKart8').inE()
 ```
 
 Podemos agrupar por ejemplo por cuantos grados de entrada tiene cada vertice
@@ -22,26 +22,16 @@ Podemos agrupar por ejemplo por cuantos grados de entrada tiene cada vertice
 g.V().group().by(inE().count())
 ```
 
-Podemos mejorar la consulta, agrupando dos veces, 
-```
-g.V().group().by().by(inE().count())
-```
-
-in y out devuelve el vertice, inE y outE retorna los vertices.
-```
-g.V().group().by().by(outE().count())
-```
-
 
 Calculemos cual es el promedio de gusto por weight del juego mario kart
 ```
-g.V().hasId('MarioKart8').inE('likes').values('weight').mean()
+g.V().has('Name','MarioKart8').inE('likes').values('weight').mean()
 ```
 
 
 Si yo soy mike a quien mas le gusta los juegos que yo juego
 ```
-g.V().hasId('Mike').out('likes').in('likes')
+g.V().has('Name','Mike').out('likes').in('likes')
 ```
 
 Devuelven muchas veces todos. ¿Por que?
