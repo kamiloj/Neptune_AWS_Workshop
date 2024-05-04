@@ -37,6 +37,11 @@ El usuario más popular es morenojason con 6 seguidores.
 ]
 ```
 
+si order y limit no funciona agregar como primer parámetro la palabra local
+
+order(local)
+limit(local,10)
+
 ## 3. ¿Cuál es el top 3 de usuarios que me recomiendan seguir?
 
 **Dicho de un modo más específico, ¿cuál es el top 3 de usuarios que tienen más seguidores directos (follows) en común con el usuario williamsbradley y que dicho usuario no está siguiendo actualmente?**
