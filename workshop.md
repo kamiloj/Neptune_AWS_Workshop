@@ -44,7 +44,7 @@ limit(local,10)
 
 ## 3. ¿Cuál es el top 3 de usuarios que me recomiendan seguir?
 
-**Dicho de un modo más específico, ¿cuál es el top 3 de usuarios que tienen más seguidores directos (follows) en común con el usuario williamsbradley y que dicho usuario no está siguiendo actualmente?**
+**Dicho de un modo más específico, ¿cuál es el top 3 de usuarios que tienen más intereses en común con el usuario williamsbradley y que dicho usuario no está siguiendo actualmente?**
 
 **Ejemplo amy81**
 
@@ -78,13 +78,4 @@ limit(local,10)
 ]
 ```
 
-**Ejemplo gráfico**
-
-![Texto alternativo](https://d1.awsstatic.com/Getting%20Started/aws-labs-friend-recommendation-engine/friend-rec-diagram.44286a071134c67ce1ad790715d8e689ff3c1507.png)
-
-**Explicación:**
-
-Si soy el usuario MyUser, entonces SimilarSam y MirrorMax son seguidores directos en común con los usuarios que sigo, ellos siguen a InterestingIngrid, por lo cual es posible que también me interese seguir esta cuenta.
-
-Pero no recomendamos a PopularPolly porque actualmente ya la sigo.
 
